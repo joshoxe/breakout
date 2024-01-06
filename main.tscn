@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://bgbkkl5rfpkvq"]
+
+[ext_resource type="Texture2D" uid="uid://chqigrkegqd4n" path="res://assets/sprite/bg.png" id="1_aycl8"]
+[ext_resource type="Script" path="res://main.gd" id="1_mrtxy"]
+
+[node name="Main" type="Node"]
+script = ExtResource("1_mrtxy")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("1_aycl8")
+
+[node name="BlockContainer" type="HBoxContainer" parent="."]
+offset_right = 1920.0
+offset_bottom = 1080.0
+alignment = 1
