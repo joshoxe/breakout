@@ -37,4 +37,4 @@ func bounce(collider, normal):
 		velocity = velocity.normalized() * SPEED
 		
 func reset():
-	position = Vector2(879, 952)
+	position = Vector2(624, 624)

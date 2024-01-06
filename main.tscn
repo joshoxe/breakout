@@ -1,6 +1,6 @@
 [gd_scene load_steps=9 format=3 uid="uid://bgbkkl5rfpkvq"]
 
-[ext_resource type="Texture2D" uid="uid://chqigrkegqd4n" path="res://assets/sprite/bg.png" id="1_aycl8"]
+[ext_resource type="Texture2D" uid="uid://5cl2pgw0temu" path="res://assets/sprite/bg.png" id="1_aycl8"]
 [ext_resource type="Script" path="res://main.gd" id="1_mrtxy"]
 [ext_resource type="PackedScene" uid="uid://d2pfbwq7n72e5" path="res://paddle.tscn" id="3_3nln6"]
 [ext_resource type="PackedScene" uid="uid://bijiesf2rtrqs" path="res://Ball.tscn" id="4_0skvb"]
@@ -24,22 +24,22 @@ offset_bottom = 1080.0
 alignment = 1
 
 [node name="Ball" parent="." instance=ExtResource("4_0skvb")]
-position = Vector2(879, 952)
+position = Vector2(624, 624)
 
 [node name="Wall" parent="." instance=ExtResource("5_td5vt")]
 position = Vector2(-8, 512)
 
 [node name="Wall2" parent="." instance=ExtResource("5_td5vt")]
-position = Vector2(1921, 568)
+position = Vector2(1280, 560)
 
 [node name="DeathZone" parent="." instance=ExtResource("7_nxhe3")]
-position = Vector2(-6, 1096)
+position = Vector2(-24, 744)
 
 [node name="Ceiling" parent="." instance=ExtResource("6_rxoqm")]
 z_index = 1
 position = Vector2(956, -8)
 
 [node name="Paddle" parent="." instance=ExtResource("3_3nln6")]
-position = Vector2(879, 976)
+position = Vector2(624, 648)
 
 [node name="HUD" parent="." instance=ExtResource("8_aw5es")]

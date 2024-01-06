@@ -48,7 +48,8 @@ func on_block_hit():
 	check_if_all_blocks_destroyed()
 
 func check_if_all_blocks_destroyed():
-	if $BlockContainer.get_child_count() == 0:
+	print($BlockContainer.get_child_count())
+	if $BlockContainer.get_child_count() <= 1:
 		new_game()
 
 func new_game():
