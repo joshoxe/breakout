@@ -1,0 +1,8 @@
+[gd_scene load_steps=3 format=3 uid="uid://obf8j2plfxa5"]
+
+[ext_resource type="Script" path="res://Sprite2D.gd" id="1_hjha8"]
+[ext_resource type="Texture2D" uid="uid://co25lmwc4l4qx" path="res://assets/sprite/3heart.png" id="1_whlqf"]
+
+[node name="lives" type="Sprite2D"]
+texture = ExtResource("1_whlqf")
+script = ExtResource("1_hjha8")

@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://dic7ayb6agsfa"]
+
+[ext_resource type="Texture2D" uid="uid://cfwgbu22crst7" path="res://assets/sprite/ceiling.png" id="1_yjh6u"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ej1ms"]
+size = Vector2(1924, 30)
+
+[node name="Ceiling" type="StaticBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_yjh6u")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_ej1ms")
